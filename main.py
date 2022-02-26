@@ -6,7 +6,7 @@ from fastapi import FastAPI
 #from pydantic import BaseModel
 #from typing import Optional,List
 #from database import SessionLocal
-import models
+#import models
 app = FastAPI()
 
 @app.get("/")
